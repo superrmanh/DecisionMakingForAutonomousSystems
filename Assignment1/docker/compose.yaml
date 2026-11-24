@@ -1,0 +1,32 @@
+name: ssy236-a1
+
+services:
+  humble:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USERNAME: ${USER:-ros}
+        USER_UID: ${HOST_UID:-1000}
+        USER_GID: ${HOST_GID:-1000}
+    image: ssy236-humble:latest
+    container_name: ssy236-humble
+    hostname: ssy236-humble
+    # Host networking + IPC so DDS discovery and shared-memory transport work
+    # between terminals / containers without extra config.
+    network_mode: host
+    ipc: host
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+      - XAUTHORITY=/tmp/.docker.xauth
+      - QT_X11_NO_MITSHM=1
+      # Isolate from your native Jazzy install (which uses domain 0 by default).
+      - ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-36}
+    volumes:
+      - ..:/home/${USER:-ros}/ssy236_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${XAUTHORITY:-~/.Xauthority}:/tmp/.docker.xauth:ro
+    devices:
+      - /dev/dri:/dev/dri

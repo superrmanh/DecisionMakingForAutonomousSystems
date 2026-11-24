@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/navi_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navi_interfaces/msg/detail/dds_fastrtps/coord2d__type_support.cpp.o"
+  "CMakeFiles/navi_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navi_interfaces/msg/detail/dds_fastrtps/coord2d__type_support.cpp.o.d"
+  "libnavi_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libnavi_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/navi_interfaces/msg/detail/dds_fastrtps/coord2d__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/navi_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

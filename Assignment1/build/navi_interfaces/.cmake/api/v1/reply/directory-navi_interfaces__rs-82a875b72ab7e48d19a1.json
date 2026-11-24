@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "navi_interfaces__rs",
+		"source" : "/home/supermanh/ssy236_ws/build/navi_interfaces/navi_interfaces__rs"
+	}
+}

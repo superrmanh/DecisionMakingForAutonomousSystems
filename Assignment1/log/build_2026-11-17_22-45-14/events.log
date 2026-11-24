@@ -1,0 +1,455 @@
+[0.000000] (-) TimerEvent: {}
+[0.000073] (navi_interfaces) JobQueued: {'identifier': 'navi_interfaces', 'dependencies': OrderedDict()}
+[0.000112] (navigation_pkg) JobQueued: {'identifier': 'navigation_pkg', 'dependencies': OrderedDict([('navi_interfaces', '/home/supermanh/ssy236_ws/install/navi_interfaces')])}
+[0.000631] (navi_interfaces) JobStarted: {'identifier': 'navi_interfaces'}
+[0.008809] (navi_interfaces) JobProgress: {'identifier': 'navi_interfaces', 'progress': 'cmake'}
+[0.009423] (navi_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/supermanh/ssy236_ws/src/navi_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/supermanh/ssy236_ws/install/navi_interfaces'], 'cwd': '/home/supermanh/ssy236_ws/build/navi_interfaces', 'env': OrderedDict([('HOSTNAME', 'ssy236-humble'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supermanh'), ('OLDPWD', '/home/supermanh/ssy236_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('ROS_DOMAIN_ID', '36'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/supermanh/ssy236_ws/build/navi_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067676] (navi_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099796] (-) TimerEvent: {}
+[0.124123] (navi_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.131097] (navi_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199907] (-) TimerEvent: {}
+[0.202456] (navi_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.210195] (navi_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.210450] (navi_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.210853] (navi_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.213996] (navi_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299995] (-) TimerEvent: {}
+[0.301896] (navi_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.311708] (navi_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.312065] (navi_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.312651] (navi_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.315937] (navi_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400092] (-) TimerEvent: {}
+[0.489427] (navi_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500174] (-) TimerEvent: {}
+[0.585628] (navi_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.588410] (navi_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.594997] (navi_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.600244] (-) TimerEvent: {}
+[0.635716] (navi_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700349] (-) TimerEvent: {}
+[0.800511] (-) TimerEvent: {}
+[0.900679] (-) TimerEvent: {}
+[0.924586] (navi_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.000782] (-) TimerEvent: {}
+[1.100961] (-) TimerEvent: {}
+[1.119556] (navi_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201056] (-) TimerEvent: {}
+[1.301220] (-) TimerEvent: {}
+[1.358869] (navi_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.379881] (navi_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.381293] (navi_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.401291] (-) TimerEvent: {}
+[1.407990] (navi_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.408121] (navi_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.408207] (navi_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.408285] (navi_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.430358] (navi_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.501371] (-) TimerEvent: {}
+[1.517779] (navi_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.535727] (navi_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.536900] (navi_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.539394] (navi_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.565746] (navi_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.575761] (navi_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/supermanh/ssy236_ws/build/navi_interfaces\n'}
+[1.582579] (navi_interfaces) CommandEnded: {'returncode': 0}
+[1.583044] (navi_interfaces) JobProgress: {'identifier': 'navi_interfaces', 'progress': 'build'}
+[1.583723] (navi_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/supermanh/ssy236_ws/build/navi_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/supermanh/ssy236_ws/build/navi_interfaces', 'env': OrderedDict([('HOSTNAME', 'ssy236-humble'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supermanh'), ('OLDPWD', '/home/supermanh/ssy236_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('ROS_DOMAIN_ID', '36'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/supermanh/ssy236_ws/build/navi_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.601457] (-) TimerEvent: {}
+[1.625203] (navi_interfaces) StdoutLine: {'line': b'[  3%] Generating C code for ROS interfaces\n'}
+[1.636073] (navi_interfaces) StdoutLine: {'line': b'[  6%] Generating Rust code for ROS interfaces\n'}
+[1.636417] (navi_interfaces) StdoutLine: {'line': b'[  9%] Generating C++ code for ROS interfaces\n'}
+[1.644578] (navi_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_navi_interfaces\n'}
+[1.701548] (-) TimerEvent: {}
+[1.801684] (-) TimerEvent: {}
+[1.867789] (navi_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.868464] (navi_interfaces) StdoutLine: {'line': b'creating navi_interfaces.egg-info\n'}
+[1.868661] (navi_interfaces) StdoutLine: {'line': b'writing navi_interfaces.egg-info/PKG-INFO\n'}
+[1.868818] (navi_interfaces) StdoutLine: {'line': b'writing dependency_links to navi_interfaces.egg-info/dependency_links.txt\n'}
+[1.868961] (navi_interfaces) StdoutLine: {'line': b'writing top-level names to navi_interfaces.egg-info/top_level.txt\n'}
+[1.869113] (navi_interfaces) StdoutLine: {'line': b"writing manifest file 'navi_interfaces.egg-info/SOURCES.txt'\n"}
+[1.871449] (navi_interfaces) StdoutLine: {'line': b"reading manifest file 'navi_interfaces.egg-info/SOURCES.txt'\n"}
+[1.872058] (navi_interfaces) StdoutLine: {'line': b"writing manifest file 'navi_interfaces.egg-info/SOURCES.txt'\n"}
+[1.880801] (navi_interfaces) StdoutLine: {'line': b'[  9%] Built target navi_interfaces__rs\n'}
+[1.896575] (navi_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/navi_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navi_interfaces/msg/detail/coord2d__functions.c.o\n'}
+[1.899876] (navi_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_navi_interfaces_egg\n'}
+[1.901752] (-) TimerEvent: {}
+[1.904673] (navi_interfaces) StdoutLine: {'line': b'[ 12%] Built target navi_interfaces__cpp\n'}
+[1.915641] (navi_interfaces) StdoutLine: {'line': b'[ 15%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.916249] (navi_interfaces) StdoutLine: {'line': b'[ 18%] Generating C++ type support dispatch for ROS interfaces\n'}
+[1.916688] (navi_interfaces) StdoutLine: {'line': b'[ 21%] Generating C++ introspection for ROS interfaces\n'}
+[1.952849] (navi_interfaces) StdoutLine: {'line': b'[ 25%] Linking C shared library libnavi_interfaces__rosidl_generator_c.so\n'}
+[1.993881] (navi_interfaces) StdoutLine: {'line': b'[ 25%] Built target navi_interfaces__rosidl_generator_c\n'}
+[2.001832] (-) TimerEvent: {}
+[2.005176] (navi_interfaces) StdoutLine: {'line': b'[ 28%] Generating C introspection for ROS interfaces\n'}
+[2.005510] (navi_interfaces) StdoutLine: {'line': b'[ 34%] Generating C type support for eProsima Fast-RTPS\n'}
+[2.005612] (navi_interfaces) StdoutLine: {'line': b'[ 34%] Generating C type support dispatch for ROS interfaces\n'}
+[2.101958] (-) TimerEvent: {}
+[2.170056] (navi_interfaces) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/navi_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navi_interfaces/msg/coord2d__type_support.cpp.o\n'}
+[2.194342] (navi_interfaces) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/navi_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navi_interfaces/msg/detail/coord2d__type_support.cpp.o\n'}
+[2.198150] (navi_interfaces) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/navi_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navi_interfaces/msg/detail/dds_fastrtps/coord2d__type_support.cpp.o\n'}
+[2.202059] (-) TimerEvent: {}
+[2.270161] (navi_interfaces) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/navi_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navi_interfaces/msg/coord2d__type_support.cpp.o\n'}
+[2.302062] (navi_interfaces) StdoutLine: {'line': b'[ 50%] Building C object CMakeFiles/navi_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navi_interfaces/msg/detail/coord2d__type_support.c.o\n'}
+[2.302293] (-) TimerEvent: {}
+[2.302826] (navi_interfaces) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/navi_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navi_interfaces/msg/detail/coord2d__type_support_c.cpp.o\n'}
+[2.309658] (navi_interfaces) StdoutLine: {'line': b'[ 56%] Linking CXX shared library libnavi_interfaces__rosidl_typesupport_c.so\n'}
+[2.348263] (navi_interfaces) StdoutLine: {'line': b'[ 59%] Linking C shared library libnavi_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.367382] (navi_interfaces) StdoutLine: {'line': b'[ 59%] Built target navi_interfaces__rosidl_typesupport_c\n'}
+[2.389642] (navi_interfaces) StdoutLine: {'line': b'[ 59%] Built target navi_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.402422] (-) TimerEvent: {}
+[2.502652] (-) TimerEvent: {}
+[2.530973] (navi_interfaces) StdoutLine: {'line': b'[ 62%] Linking CXX shared library libnavi_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.580368] (navi_interfaces) StdoutLine: {'line': b'[ 62%] Built target navi_interfaces__rosidl_typesupport_cpp\n'}
+[2.602738] (-) TimerEvent: {}
+[2.640932] (navi_interfaces) StdoutLine: {'line': b'[ 65%] Linking CXX shared library libnavi_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.685454] (navi_interfaces) StdoutLine: {'line': b'[ 65%] Built target navi_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.692065] (navi_interfaces) StdoutLine: {'line': b'[ 68%] Linking CXX shared library libnavi_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.702860] (-) TimerEvent: {}
+[2.734351] (navi_interfaces) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libnavi_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.769904] (navi_interfaces) StdoutLine: {'line': b'[ 71%] Built target navi_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.802977] (-) TimerEvent: {}
+[2.814017] (navi_interfaces) StdoutLine: {'line': b'[ 71%] Built target navi_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.833984] (navi_interfaces) StdoutLine: {'line': b'[ 71%] Built target navi_interfaces\n'}
+[2.855051] (navi_interfaces) StdoutLine: {'line': b'[ 75%] Generating Python code for ROS interfaces\n'}
+[2.903064] (-) TimerEvent: {}
+[3.003229] (-) TimerEvent: {}
+[3.103379] (-) TimerEvent: {}
+[3.136614] (navi_interfaces) StdoutLine: {'line': b'[ 75%] Built target navi_interfaces__py\n'}
+[3.158605] (navi_interfaces) StdoutLine: {'line': b'[ 78%] Building C object CMakeFiles/navi_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navi_interfaces/msg/_coord2d_s.c.o\n'}
+[3.203490] (-) TimerEvent: {}
+[3.256591] (navi_interfaces) StdoutLine: {'line': b'[ 81%] Linking C shared library rosidl_generator_py/navi_interfaces/libnavi_interfaces__rosidl_generator_py.so\n'}
+[3.293646] (navi_interfaces) StdoutLine: {'line': b'[ 81%] Built target navi_interfaces__rosidl_generator_py\n'}
+[3.303645] (-) TimerEvent: {}
+[3.312331] (navi_interfaces) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/navi_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[3.313753] (navi_interfaces) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/navi_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[3.314560] (navi_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/navi_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[3.403753] (-) TimerEvent: {}
+[3.405687] (navi_interfaces) StdoutLine: {'line': b'[ 96%] Linking C shared library rosidl_generator_py/navi_interfaces/navi_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.405819] (navi_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/navi_interfaces/navi_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.405888] (navi_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/navi_interfaces/navi_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.438830] (navi_interfaces) StdoutLine: {'line': b'[100%] Built target navi_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.439847] (navi_interfaces) StdoutLine: {'line': b'[100%] Built target navi_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.441497] (navi_interfaces) StdoutLine: {'line': b'[100%] Built target navi_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.452602] (navi_interfaces) CommandEnded: {'returncode': 0}
+[3.453224] (navi_interfaces) JobProgress: {'identifier': 'navi_interfaces', 'progress': 'install'}
+[3.460832] (navi_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/supermanh/ssy236_ws/build/navi_interfaces'], 'cwd': '/home/supermanh/ssy236_ws/build/navi_interfaces', 'env': OrderedDict([('HOSTNAME', 'ssy236-humble'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supermanh'), ('OLDPWD', '/home/supermanh/ssy236_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('ROS_DOMAIN_ID', '36'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/supermanh/ssy236_ws/build/navi_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.469445] (navi_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.469632] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/rosidl_interfaces/navi_interfaces\n'}
+[3.469805] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces\n'}
+[3.469905] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg\n'}
+[3.470010] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/coord2d.h\n'}
+[3.470105] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.470237] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail\n'}
+[3.470295] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__functions.h\n'}
+[3.470387] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__functions.c\n'}
+[3.470488] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.h\n'}
+[3.470584] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__struct.h\n'}
+[3.470725] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/library_path.sh\n'}
+[3.470857] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/library_path.dsv\n'}
+[3.471030] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_generator_c.so\n'}
+[3.471342] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_generator_c.so" to ""\n'}
+[3.471442] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces\n'}
+[3.471533] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg\n'}
+[3.471660] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.471709] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail\n'}
+[3.471756] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_fastrtps_c.h\n'}
+[3.471846] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.472076] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.472207] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces\n'}
+[3.472259] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg\n'}
+[3.472311] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.472409] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail\n'}
+[3.472497] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_introspection_c.h\n'}
+[3.472546] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.c\n'}
+[3.472636] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.472880] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.472982] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_c.so\n'}
+[3.473208] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[3.473336] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces\n'}
+[3.473388] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg\n'}
+[3.473438] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.473533] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail\n'}
+[3.473584] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.hpp\n'}
+[3.473702] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__traits.hpp\n'}
+[3.473786] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__struct.hpp\n'}
+[3.473838] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__builder.hpp\n'}
+[3.473931] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/coord2d.hpp\n'}
+[3.474173] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces\n'}
+[3.474227] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg\n'}
+[3.474281] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.474417] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail\n'}
+[3.474470] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/dds_fastrtps\n'}
+[3.474518] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.474615] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.474894] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.475222] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces\n'}
+[3.475308] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg\n'}
+[3.475370] (navi_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail\n'}
+[3.475467] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__type_support.cpp\n'}
+[3.475518] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/include/navi_interfaces/navi_interfaces/msg/detail/coord2d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.475571] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.475667] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.475769] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.475951] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[3.476046] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/pythonpath.sh\n'}
+[3.476137] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/pythonpath.dsv\n'}
+[3.476227] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info\n'}
+[3.476365] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.476466] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.476569] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.476667] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.476794] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces\n'}
+[3.476884] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.476980] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.477100] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/__init__.py\n'}
+[3.477192] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.477289] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg\n'}
+[3.477380] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/__init__.py\n'}
+[3.477473] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/_coord2d_s.c\n'}
+[3.477560] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/_coord2d.py\n'}
+[3.477658] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/libnavi_interfaces__rosidl_generator_py.so\n'}
+[3.477773] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/_navi_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.477881] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.478012] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.503805] (-) TimerEvent: {}
+[3.514897] (navi_interfaces) StdoutLine: {'line': b"Listing '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces'...\n"}
+[3.515021] (navi_interfaces) StdoutLine: {'line': b"Compiling '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/__init__.py'...\n"}
+[3.515086] (navi_interfaces) StdoutLine: {'line': b"Listing '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg'...\n"}
+[3.515149] (navi_interfaces) StdoutLine: {'line': b"Compiling '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/__init__.py'...\n"}
+[3.515195] (navi_interfaces) StdoutLine: {'line': b"Compiling '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/msg/_coord2d.py'...\n"}
+[3.519397] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.519684] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.519851] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.520205] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.520409] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.520696] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages/navi_interfaces/navi_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.520783] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_generator_py.so\n'}
+[3.521057] (navi_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navi_interfaces/lib/libnavi_interfaces__rosidl_generator_py.so" to ""\n'}
+[3.521147] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/rust_packages/navi_interfaces\n'}
+[3.521255] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust\n'}
+[3.521371] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src\n'}
+[3.521423] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/msg\n'}
+[3.521521] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/msg/rmw.rs\n'}
+[3.521571] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/msg.rs\n'}
+[3.521655] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/src/lib.rs\n'}
+[3.521746] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/build.rs\n'}
+[3.521838] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/rust/Cargo.toml\n'}
+[3.521934] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/msg/Coord2d.idl\n'}
+[3.522056] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/msg/Coord2d.msg\n'}
+[3.522193] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/package_run_dependencies/navi_interfaces\n'}
+[3.522330] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/parent_prefix_path/navi_interfaces\n'}
+[3.522453] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/ament_prefix_path.sh\n'}
+[3.522572] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.522688] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/path.sh\n'}
+[3.522801] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/environment/path.dsv\n'}
+[3.522916] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.bash\n'}
+[3.523033] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.sh\n'}
+[3.523142] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.zsh\n'}
+[3.523250] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/local_setup.dsv\n'}
+[3.523353] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.dsv\n'}
+[3.523494] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/ament_index/resource_index/packages/navi_interfaces\n'}
+[3.523643] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.523767] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.523898] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.524028] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.524155] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.524275] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.524403] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.524519] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.524646] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.524773] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.524892] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.525024] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.525141] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.525267] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.525388] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.525519] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.525638] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/export_navi_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.525755] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.525866] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.525985] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.526101] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.526214] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.526324] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.526443] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.526555] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[3.526667] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfacesConfig.cmake\n'}
+[3.526763] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake/navi_interfacesConfig-version.cmake\n'}
+[3.526875] (navi_interfaces) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/package.xml\n'}
+[3.528868] (navi_interfaces) CommandEnded: {'returncode': 0}
+[3.551655] (navi_interfaces) JobEnded: {'identifier': 'navi_interfaces', 'rc': 0}
+[3.552566] (navigation_pkg) JobStarted: {'identifier': 'navigation_pkg'}
+[3.559446] (navigation_pkg) JobProgress: {'identifier': 'navigation_pkg', 'progress': 'cmake'}
+[3.560119] (navigation_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/supermanh/ssy236_ws/src/navigation_pkg', '-DCMAKE_INSTALL_PREFIX=/home/supermanh/ssy236_ws/install/navigation_pkg'], 'cwd': '/home/supermanh/ssy236_ws/build/navigation_pkg', 'env': OrderedDict([('HOSTNAME', 'ssy236-humble'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supermanh'), ('OLDPWD', '/home/supermanh/ssy236_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('ROS_DOMAIN_ID', '36'), ('AMENT_PREFIX_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/supermanh/ssy236_ws/build/navigation_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces:/opt/ros/humble')]), 'shell': False}
+[3.603915] (-) TimerEvent: {}
+[3.616895] (navigation_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.673146] (navigation_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.680301] (navigation_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.703972] (-) TimerEvent: {}
+[3.751308] (navigation_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.759260] (navigation_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.759480] (navigation_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.759873] (navigation_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.762932] (navigation_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.804073] (-) TimerEvent: {}
+[3.841276] (navigation_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.848874] (navigation_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.849184] (navigation_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.849644] (navigation_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.852079] (navigation_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.904151] (-) TimerEvent: {}
+[4.004304] (-) TimerEvent: {}
+[4.012129] (navigation_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.101228] (navigation_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.104365] (-) TimerEvent: {}
+[4.141053] (navigation_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.146036] (navigation_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.154806] (navigation_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.167048] (navigation_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.183201] (navigation_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.204450] (-) TimerEvent: {}
+[4.227227] (navigation_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.229813] (navigation_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.304558] (-) TimerEvent: {}
+[4.315119] (navigation_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.343484] (navigation_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.384551] (navigation_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.392772] (navigation_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.404637] (-) TimerEvent: {}
+[4.464303] (navigation_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.464735] (navigation_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.504750] (-) TimerEvent: {}
+[4.543524] (navigation_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.544987] (navigation_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.604218] (navigation_pkg) StdoutLine: {'line': b'-- Found navi_interfaces: 0.0.0 (/home/supermanh/ssy236_ws/install/navi_interfaces/share/navi_interfaces/cmake)\n'}
+[4.604809] (-) TimerEvent: {}
+[4.615933] (navigation_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.693285] (navigation_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.693503] (navigation_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/supermanh/ssy236_ws/src/navigation_pkg/include>\n'}
+[4.693591] (navigation_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.694051] (navigation_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.695070] (navigation_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.695153] (navigation_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.695501] (navigation_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.696605] (navigation_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.704876] (-) TimerEvent: {}
+[4.707837] (navigation_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[4.712390] (navigation_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/supermanh/ssy236_ws/build/navigation_pkg\n'}
+[4.719588] (navigation_pkg) CommandEnded: {'returncode': 0}
+[4.720059] (navigation_pkg) JobProgress: {'identifier': 'navigation_pkg', 'progress': 'build'}
+[4.720333] (navigation_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/supermanh/ssy236_ws/build/navigation_pkg', '--', '-j20', '-l20'], 'cwd': '/home/supermanh/ssy236_ws/build/navigation_pkg', 'env': OrderedDict([('HOSTNAME', 'ssy236-humble'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supermanh'), ('OLDPWD', '/home/supermanh/ssy236_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('ROS_DOMAIN_ID', '36'), ('AMENT_PREFIX_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/supermanh/ssy236_ws/build/navigation_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.772156] (navigation_pkg) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/navi_node.dir/src/navi_node.cpp.o\n'}
+[4.773291] (navigation_pkg) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/navi_subscriber.dir/src/navi_subscriber.cpp.o\n'}
+[4.804982] (-) TimerEvent: {}
+[4.905140] (-) TimerEvent: {}
+[5.005328] (-) TimerEvent: {}
+[5.105546] (-) TimerEvent: {}
+[5.205747] (-) TimerEvent: {}
+[5.305918] (-) TimerEvent: {}
+[5.406132] (-) TimerEvent: {}
+[5.506334] (-) TimerEvent: {}
+[5.606522] (-) TimerEvent: {}
+[5.706705] (-) TimerEvent: {}
+[5.806894] (-) TimerEvent: {}
+[5.907085] (-) TimerEvent: {}
+[6.007269] (-) TimerEvent: {}
+[6.107450] (-) TimerEvent: {}
+[6.207648] (-) TimerEvent: {}
+[6.307871] (-) TimerEvent: {}
+[6.408093] (-) TimerEvent: {}
+[6.508292] (-) TimerEvent: {}
+[6.608490] (-) TimerEvent: {}
+[6.708681] (-) TimerEvent: {}
+[6.808873] (-) TimerEvent: {}
+[6.909066] (-) TimerEvent: {}
+[7.009250] (-) TimerEvent: {}
+[7.109425] (-) TimerEvent: {}
+[7.209606] (-) TimerEvent: {}
+[7.309798] (-) TimerEvent: {}
+[7.409990] (-) TimerEvent: {}
+[7.510180] (-) TimerEvent: {}
+[7.610368] (-) TimerEvent: {}
+[7.710550] (-) TimerEvent: {}
+[7.810732] (-) TimerEvent: {}
+[7.910913] (-) TimerEvent: {}
+[8.011100] (-) TimerEvent: {}
+[8.111278] (-) TimerEvent: {}
+[8.211455] (-) TimerEvent: {}
+[8.311626] (-) TimerEvent: {}
+[8.411800] (-) TimerEvent: {}
+[8.511974] (-) TimerEvent: {}
+[8.612146] (-) TimerEvent: {}
+[8.712324] (-) TimerEvent: {}
+[8.812503] (-) TimerEvent: {}
+[8.912684] (-) TimerEvent: {}
+[8.965290] (navigation_pkg) StdoutLine: {'line': b'[ 75%] Linking CXX executable navi_node\n'}
+[9.012789] (-) TimerEvent: {}
+[9.112979] (-) TimerEvent: {}
+[9.147611] (navigation_pkg) StdoutLine: {'line': b'[ 75%] Built target navi_node\n'}
+[9.213085] (-) TimerEvent: {}
+[9.313272] (-) TimerEvent: {}
+[9.413457] (-) TimerEvent: {}
+[9.513640] (-) TimerEvent: {}
+[9.613810] (-) TimerEvent: {}
+[9.713998] (-) TimerEvent: {}
+[9.814134] (-) TimerEvent: {}
+[9.914221] (-) TimerEvent: {}
+[10.014299] (-) TimerEvent: {}
+[10.114374] (-) TimerEvent: {}
+[10.214449] (-) TimerEvent: {}
+[10.314528] (-) TimerEvent: {}
+[10.414658] (-) TimerEvent: {}
+[10.514819] (-) TimerEvent: {}
+[10.614998] (-) TimerEvent: {}
+[10.715196] (-) TimerEvent: {}
+[10.815388] (-) TimerEvent: {}
+[10.915561] (-) TimerEvent: {}
+[11.015736] (-) TimerEvent: {}
+[11.115909] (-) TimerEvent: {}
+[11.216085] (-) TimerEvent: {}
+[11.316243] (-) TimerEvent: {}
+[11.416420] (-) TimerEvent: {}
+[11.516614] (-) TimerEvent: {}
+[11.616793] (-) TimerEvent: {}
+[11.716980] (-) TimerEvent: {}
+[11.817112] (-) TimerEvent: {}
+[11.917205] (-) TimerEvent: {}
+[12.017287] (-) TimerEvent: {}
+[12.117365] (-) TimerEvent: {}
+[12.217448] (-) TimerEvent: {}
+[12.317568] (-) TimerEvent: {}
+[12.352311] (navigation_pkg) StdoutLine: {'line': b'[100%] Linking CXX executable navi_subscriber\n'}
+[12.417671] (-) TimerEvent: {}
+[12.517824] (-) TimerEvent: {}
+[12.617944] (-) TimerEvent: {}
+[12.692404] (navigation_pkg) StdoutLine: {'line': b'[100%] Built target navi_subscriber\n'}
+[12.705584] (navigation_pkg) CommandEnded: {'returncode': 0}
+[12.706219] (navigation_pkg) JobProgress: {'identifier': 'navigation_pkg', 'progress': 'install'}
+[12.706514] (navigation_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/supermanh/ssy236_ws/build/navigation_pkg'], 'cwd': '/home/supermanh/ssy236_ws/build/navigation_pkg', 'env': OrderedDict([('HOSTNAME', 'ssy236-humble'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/supermanh'), ('OLDPWD', '/home/supermanh/ssy236_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker.xauth'), ('ROS_DOMAIN_ID', '36'), ('AMENT_PREFIX_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/supermanh/ssy236_ws/build/navigation_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/supermanh/ssy236_ws/install/navi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/supermanh/ssy236_ws/install/navi_interfaces:/opt/ros/humble')]), 'shell': False}
+[12.714686] (navigation_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.714946] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_node\n'}
+[12.715892] (navigation_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_node" to ""\n'}
+[12.716042] (navigation_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/supermanh/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_node\n'}
+[12.716174] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_subscriber\n'}
+[12.718007] (-) TimerEvent: {}
+[12.718882] (navigation_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/supermanh/ssy236_ws/install/navigation_pkg/lib/navigation_pkg/navi_subscriber" to ""\n'}
+[12.719036] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/package_run_dependencies/navigation_pkg\n'}
+[12.719177] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/parent_prefix_path/navigation_pkg\n'}
+[12.719331] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.sh\n'}
+[12.719448] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/ament_prefix_path.dsv\n'}
+[12.719604] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/path.sh\n'}
+[12.719824] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/environment/path.dsv\n'}
+[12.719879] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.bash\n'}
+[12.720070] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.sh\n'}
+[12.720121] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.zsh\n'}
+[12.720216] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/local_setup.dsv\n'}
+[12.720306] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.dsv\n'}
+[12.720398] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/ament_index/resource_index/packages/navigation_pkg\n'}
+[12.720524] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig.cmake\n'}
+[12.720624] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/cmake/navigation_pkgConfig-version.cmake\n'}
+[12.720744] (navigation_pkg) StdoutLine: {'line': b'-- Installing: /home/supermanh/ssy236_ws/install/navigation_pkg/share/navigation_pkg/package.xml\n'}
+[12.722325] (navigation_pkg) CommandEnded: {'returncode': 0}
+[12.733719] (navigation_pkg) JobEnded: {'identifier': 'navigation_pkg', 'rc': 0}
+[12.734120] (-) EventReactorShutdown: {}

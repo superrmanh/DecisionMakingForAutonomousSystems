@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-be91f19a203da99dbc67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "navi_interfaces__py",
+					"jsonFile" : "directory-navi_interfaces__py-44dd7198811d343546ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/supermanh/ssy236_ws/build/navi_interfaces/navi_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "navi_interfaces__rs",
+					"jsonFile" : "directory-navi_interfaces__rs-82a875b72ab7e48d19a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/supermanh/ssy236_ws/build/navi_interfaces/navi_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "navi_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_navi_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_navi_interfaces_egg-0ae1ea832508e4bc1825.json",
+					"name" : "ament_cmake_python_build_navi_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_navi_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_navi_interfaces-bf7eb1fd439ba9bae43b.json",
+					"name" : "ament_cmake_python_copy_navi_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces-11190739b157b16a77a5.json",
+					"name" : "navi_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__cpp-2c8f92627c5fce453fc3.json",
+					"name" : "navi_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "navi_interfaces__py::@b870c4a73c14b1cc71ec",
+					"jsonFile" : "target-navi_interfaces__py-9b52969924aaf1ddf402.json",
+					"name" : "navi_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_generator_c-c759622c4595cbc037d8.json",
+					"name" : "navi_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_generator_py-efd940ddf1843df88ef9.json",
+					"name" : "navi_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_c-312877fcb883758bbf27.json",
+					"name" : "navi_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_c__pyext-0df782767fc886e31b5e.json",
+					"name" : "navi_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_cpp-463bfbd8d4b76e5edd16.json",
+					"name" : "navi_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_fastrtps_c-8cb3ecb1745ce0a31f87.json",
+					"name" : "navi_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_fastrtps_c__pyext-ff8d1d6a2ebb6a392659.json",
+					"name" : "navi_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_fastrtps_cpp-b6e945ce66dcc20781c1.json",
+					"name" : "navi_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_introspection_c-97dfb993bf2fe12d4da3.json",
+					"name" : "navi_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_introspection_c__pyext-a48f33d0add478a3d55e.json",
+					"name" : "navi_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces__rosidl_typesupport_introspection_cpp-e9281c6c5208b7b48252.json",
+					"name" : "navi_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "navi_interfaces__rs::@b51f4b04a61eede183fa",
+					"jsonFile" : "target-navi_interfaces__rs-89ff64ddc44413821509.json",
+					"name" : "navi_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navi_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navi_interfaces_uninstall-bd67f586f82d7fe5d319.json",
+					"name" : "navi_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4e5e60fe6a2aa84be6bb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/supermanh/ssy236_ws/build/navi_interfaces",
+		"source" : "/home/supermanh/ssy236_ws/src/navi_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
