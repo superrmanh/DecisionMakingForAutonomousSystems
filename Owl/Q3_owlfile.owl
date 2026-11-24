@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns="http://www.example.org/ssy236/q5#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:NamedIndividual rdf:about="http://www.example.org/ssy236/q5#table2">
+    <rdf:type rdf:resource="http://www.example.org/ssy236/q5#Table"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.example.org/ssy236/q5#robot1">
+    <rdf:type rdf:resource="http://www.example.org/ssy236/q5#IndustrialRobot"/>
+    <near>
+      <owl:NamedIndividual rdf:about="http://www.example.org/ssy236/q5#cabinet1">
+        <rdf:type rdf:resource="http://www.example.org/ssy236/q5#Cabinet"/>
+      </owl:NamedIndividual>
+    </near>
+    <manipulates>
+      <owl:NamedIndividual rdf:about="http://www.example.org/ssy236/q5#cup1">
+        <rdf:type rdf:resource="http://www.example.org/ssy236/q5#Cup"/>
+      </owl:NamedIndividual>
+    </manipulates>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.example.org/ssy236/q5#bin1">
+    <rdf:type rdf:resource="http://www.example.org/ssy236/q5#TrashBin"/>
+    <near>
+      <owl:NamedIndividual rdf:about="http://www.example.org/ssy236/q5#table1">
+        <rdf:type rdf:resource="http://www.example.org/ssy236/q5#Table"/>
+        <supports rdf:resource="http://www.example.org/ssy236/q5#cup1"/>
+      </owl:NamedIndividual>
+    </near>
+  </owl:NamedIndividual>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#MobileRobot">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ssy236/q5#Robot"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.example.org/ssy236/q5#near"/>
+  <owl:ObjectProperty rdf:about="http://www.example.org/ssy236/q5#manipulates"/>
+  <owl:ObjectProperty rdf:about="http://www.example.org/ssy236/q5#supports"/>
+  <owl:Ontology rdf:about="http://www.example.org/ssy236/q5"/>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#Table">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ssy236/q5#Furniture"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#Container"/>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#Cup">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ssy236/q5#Container"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#Robot"/>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#IndustrialRobot">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ssy236/q5#Robot"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#TrashBin">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ssy236/q5#Container"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#Cabinet">
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ssy236/q5#Furniture"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.example.org/ssy236/q5#Furniture"/>
+</rdf:RDF>

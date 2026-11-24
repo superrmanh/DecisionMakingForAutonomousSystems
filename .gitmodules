@@ -1,0 +1,6 @@
+[submodule "BehaviorTree.ROS2"]
+	path = BehaviorTree.ROS2
+	url = https://github.com/BehaviorTree/BehaviorTree.ROS2.git
+[submodule "gazebo_models"]
+	path = gazebo_models
+	url = https://github.com/osrf/gazebo_models.git
