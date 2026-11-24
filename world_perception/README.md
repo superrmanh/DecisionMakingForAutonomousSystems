@@ -2,8 +2,8 @@
 
 ## Videos
 
-- Task 1 (direct perception): https://www.youtube.com/watch?v=GU03rrwesPo
-- Task 2 (perception by moving to objects): https://www.youtube.com/watch?v=Y1lm3bvYjhw
+- Task 1 (direct perception): https://youtu.be/ubJXJ7vfauY
+- Task 2 (perception by moving to objects): https://youtu.be/7WdP7xQL3Fw
 
 ## Build
 
