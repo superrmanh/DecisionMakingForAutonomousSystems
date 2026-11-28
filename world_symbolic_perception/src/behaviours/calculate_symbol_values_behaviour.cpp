@@ -24,13 +24,14 @@ NodeStatus CalculateSymbolValuesBehaviour::tick()
 
     // Notes:
     // For every ordered pair (obj1, obj2) of different visible objects, we evaluate every predicate of the symbol library.
-    // Ordered pairs mean that both pred(X, Y) and pred(Y, X) are checked.
-    // Each predicate that holds is stored as a Fluent in the format of the expected knowledge base state, e.g.
+    // ordered pairs mean that both pred(X, Y) and pred(Y, X) are checked.
+    // each predicate that holds is stored as a Fluent in the format of the expected knowledge base state, e.g.
     //   on(beer, table)  ->  on -- [ (Object, beer) ] -- table
     // i.e. name = predicate name, one parameter ("Object", obj1), value = obj2.
 
     // Predicates from the symbol library, with the name each one gets in the knowledge base
     using Predicate = bool (*)(world_symbolic_perception::msg::Object, world_symbolic_perception::msg::Object, rclcpp::Node::SharedPtr);
+    // small dictionary for predicates
     const std::vector<std::pair<std::string, Predicate>> predicates = {
         {"on", &SymbolLibrary::on},
         {"leftOf", &SymbolLibrary::leftOf},
